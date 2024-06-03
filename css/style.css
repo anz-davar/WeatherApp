@@ -1,0 +1,56 @@
+
+html {
+    height: 100%;
+}
+body {
+    font-family:  Arial, Helvetica, sans-serif;
+    /*background-color: rgba(107, 194, 69, 0.66) !important;*/
+    background-image: url("../img/SkyWallpaper.jpg") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /*color: #fff;*/
+    line-height: 1.6;
+    text-align: center;
+}
+
+/* Layout for weather cards: 8 in each row */
+.weather-card-container {
+    width: calc(100% / 9);
+    box-sizing: border-box;
+}
+
+.weather-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Layout for weather cards: 8 in each row */
+.weather-card {
+    width: calc(100% / 9); /* Each card takes up 12.5% of the container width, allowing 8 cards per row */
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 5px;
+    text-align: center;
+    background-color: lightskyblue;
+
+}
+
+.weather-image {
+    border-radius: 50%; /* Make the image round */
+    display: block;
+    margin: 0 auto; /* Center the image in the card */
+}
+h1 {
+    text-align: center;
+}
+select, label {
+    display: inline-block;
+    margin: 0 20px;
+    text-align: center; /* Center the text within the elements */
+}
+
+
